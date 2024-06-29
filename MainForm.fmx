@@ -1,0 +1,69 @@
+object HomeForm: THomeForm
+  Left = 0
+  Top = 0
+  Caption = 'Websocket Client'
+  ClientHeight = 466
+  ClientWidth = 383
+  Padding.Left = 5.000000000000000000
+  Padding.Top = 5.000000000000000000
+  Padding.Right = 5.000000000000000000
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object ListBox_Log: TListBox
+    Align = Client
+    Size.Width = 373.000000000000000000
+    Size.Height = 341.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    Viewport.Width = 369.000000000000000000
+    Viewport.Height = 337.000000000000000000
+  end
+  object Panel1: TPanel
+    Align = Bottom
+    Position.X = 5.000000000000000000
+    Position.Y = 346.000000000000000000
+    Size.Width = 373.000000000000000000
+    Size.Height = 120.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Button_Connect: TButton
+      Align = MostBottom
+      Position.Y = 71.000000000000000000
+      Size.Width = 373.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'Connect'
+      TextSettings.Trimming = None
+      OnClick = Button_ConnectClick
+    end
+    object Edit_IP: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Client
+      TabOrder = 1
+      Text = 'ws://192.168.1.4:3000/ws'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.HorzAlign = Center
+      Size.Width = 373.000000000000000000
+      Size.Height = 71.000000000000000000
+      Size.PlatformDefault = False
+      StyledSettings = [Family, Style, FontColor]
+      object ClearEditButton1: TClearEditButton
+        Touch.InteractiveGestures = [LongTap]
+        CanFocus = False
+        Cursor = crArrow
+        TextSettings.Trimming = None
+        Size.Width = 28.000000000000000000
+        Size.Height = 67.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+  end
+end

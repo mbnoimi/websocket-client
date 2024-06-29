@@ -1,0 +1,6 @@
+[submodule "Delphi-Cross-Socket"]
+	path = Delphi-Cross-Socket
+	url = https://github.com/winddriver/Delphi-Cross-Socket.git
+[submodule "CnPack"]
+	path = CnPack
+	url = https://github.com/cnpack/cnvcl.git
