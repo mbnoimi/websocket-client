@@ -10,5 +10,6 @@ uses
 begin
   Application.Initialize;
   Application.CreateForm(THomeForm, HomeForm);
+  Application.FormFactor.Orientations := [TFormOrientation.Portrait];
   Application.Run;
 end.
