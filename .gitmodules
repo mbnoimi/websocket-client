@@ -4,3 +4,6 @@
 [submodule "CnPack"]
 	path = CnPack
 	url = https://github.com/cnpack/cnvcl.git
+[submodule "OpenSSL"]
+	path = OpenSSL
+	url = https://github.com/PurpleI2P/OpenSSL-for-Android-Prebuilt.git
